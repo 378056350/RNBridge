@@ -1,12 +1,12 @@
 ## RNBridge
 
-![version](https://img.shields.io/badge/release-1.0.0-informational?style=flat-square)![License](https://img.shields.io/github/license/378056350/bookkeeping-iOS.svg?style=flat-square)![Platform](https://img.shields.io/badge/platform-reactnative-red?style=flat-square)
+![version](https://img.shields.io/badge/release-1.0.0-informational?style=flat-square)  ![License](https://img.shields.io/github/license/378056350/bookkeeping-iOS.svg?style=flat-square)  ![Platform](https://img.shields.io/badge/platform-reactnative-red?style=flat-square)
 
 
 
 功能：为iOS和RN混合项目进行拆包，并根据路径动态加载Bundle
 
-版本：0.63.3，理论上日后的rn版本无需修改就能兼容
+版本：0.63.3，理论上0.60及日后的rn版本无需修改就能兼容
 
 ### 前提
 

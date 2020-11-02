@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  RNBridge
+//
+//  Created by 郑业强 on 2020/10/29.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <MJExtension.h>
+#import <Realm.h>
+#import <ReactiveObjC.h>
+#import <Routable.h>
+
+#import "Single.h"
+#import "Common.h"
+#import "CommonDefine.h"
+#import "BasicConstants.h"
+#import "RealmManager.h"
+
+#import "NSString+Extension.h"
+#import "UIView+Frame.h"
+#import "UIView+ViewController.h"
+#import "UIColor+HEX.h"
+#import "UIFont+Adjust.h"
+#import "UITabBar+UI.h"
+#import "UITabBar+CustomBadge.h"
+#import "UIImage+Image.h"
+
+#import "BasicViewController.h"
+#import "BasicNavController.h"
+#import "BasicTabBarController.h"
+
+#import "RNBridgeEmiter.h"
+#import "RNBridgeNativeEmiter.h"
+#import "RNBridgeConstants.h"
+#import "RNBridgeStore.h"
+#import "RNViewController.h"
+#import "UIViewController+RNBridge.h"
+
+
+#endif

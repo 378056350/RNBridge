@@ -1,0 +1,27 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+target 'RNBridge' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+	pod 'AFNetworking', '4.0.1'
+  pod 'ReactiveObjC', '3.1.1'
+  pod 'Routable', '0.2.0'
+  pod 'Realm', '5.3.3'
+  pod 'MJExtension', '3.2.2'
+  pod 'Masonry', '1.1.0'
+  pod 'SSZipArchive', '2.2.3'
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  use_flipper!
+  post_install do |installer|
+    flipper_post_install(installer)
+  end
+end

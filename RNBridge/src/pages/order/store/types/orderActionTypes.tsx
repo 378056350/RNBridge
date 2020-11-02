@@ -1,0 +1,8 @@
+/// 普通请求
+export const ORDER_NORMAL_ACTION = 'ADDRESS_NORMAL_ACTION';
+/// 下拉刷新请求
+export const ORDER_HEADER_ACTION = 'ORDER_HEADER_ACTION';
+/// 占位页
+export const ORDER_PLACEHOLDER_ACTION = 'ORDER_PLACEHOLDER_ACTION';
+/// HUD
+export const ORDER_HUD_ACTION = 'ORDER_HUD_ACTION';

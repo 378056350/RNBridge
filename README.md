@@ -4,7 +4,7 @@
 
 ![License](https://img.shields.io/github/license/378056350/bookkeeping-iOS.svg?style=flat-square)
 
-![Platform](https://img.shields.io/badge/platform-react native | iOS-red?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-react native-red?style=flat-square)
 
 
 
